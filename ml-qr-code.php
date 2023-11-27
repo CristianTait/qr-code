@@ -278,7 +278,7 @@ function init_gateway_class()
                             CURLOPT_FOLLOWLOCATION => true,
                             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                             CURLOPT_CUSTOMREQUEST => "GET",
-                            CURLOPT_HTTPHEADER => array("Authorization: Bearer APP_USR-5238137064662936-042010-7d1260506f207338dea50e9a2b61f9df__LA_LC__-179350675")
+                            CURLOPT_HTTPHEADER => array("Authorization: Bearer Token_MP")
                         ));
                         $response = curl_exec($curl);
                         curl_close($curl);
